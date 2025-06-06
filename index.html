@@ -4,9 +4,29 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/vite.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    
+
     <title>Vite App</title>
   </head>
   <body>
+    <nav class="menu">
+      <div class="menu__logo">
+        <img src="./src/img/5631116.jpg" alt="Logo" class="logo__imagen" />
+        </div>
+      <ul class="menu__list">
+        <li class="menu__item"><a href="#" class="menu__link">Productos</a></li>
+        <li class="menu__item"><a href="#" class="menu__link">Categoría</a></li>
+        <li class="menu__item menu__item--has-submenu">
+          <a href="#" class="menu__link">Cuenta</a>
+          <ul class="menu__submenu">
+            <li class="menu__submenu-item"><a href="./src/interfaz/login.html" class="menu__submenu-link">Logearse</a></li>
+            <li class="menu__submenu-item"><a href="./src/interfaz/registro.html" class="menu__submenu-link">Registrar</a></li>
+            <li class="menu__submenu-item"><a href="#" class="menu__submenu-link">Cerrar sesión</a></li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
     <div id="app"></div>
     <script type="module" src="/src/main.js"></script>
   </body>
