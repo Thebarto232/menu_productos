@@ -15,6 +15,19 @@
 
 
 }
+/* Estilos para el contenedor y los elementos flexibles */
+.container {
+  display: flex;
+  width: 1200px; /* Ancho del contenedor */
+  align-content: center;
+  margin: 0 auto; /* Centra el contenedor horizontalmente */
+  justify-content: space-between;
+  align-items: center; /* Alinea los elementos verticalmente al centro */
+  gap: 10px; /* Espacio entre los elementos */
+  border-bottom: rgba(143, 162, 182, 0.828) 2px solid; /* Línea de separación al final del contenedor */
+  height: 100px; /* Altura del contenedor */
+
+}
 .menu {
   background-color: #333;
   display: flex;

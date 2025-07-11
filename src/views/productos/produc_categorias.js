@@ -18,5 +18,4 @@ export async function ordenarProductos() {
 
   mandar_peti.appendChild(content);
 
-
 }
